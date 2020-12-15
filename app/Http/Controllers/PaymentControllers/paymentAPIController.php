@@ -36,7 +36,7 @@ class PaymentAPIController extends Controller
         $plugin = "App\Plugins\payment\\".$pluginame."\handler"; //dynamicly call
         $payment = new $plugin(); //create class instace
 
-        $result = $payment->callDirect('*MollieController@sendStatus', $request);
+        $result = $payment->callDirect('*sampleController@sendStatus', $request);
         return response("Thanks!");
     }
 }

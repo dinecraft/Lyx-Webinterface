@@ -11,6 +11,7 @@ use Artisan;
 use File;
 
 use App\helpers\helper;
+use App\Models\PluginsList;
 
 class BackendController extends Controller
 {
@@ -22,18 +23,26 @@ class BackendController extends Controller
     //}
 
     //plugin routing
-    public function pluginRouting(Request $request, $url)
+    public function pluginRouting(Request $request, $plugin, $url) // [function] this function could call every plugin by its registered name
     {
-        $splitted = explode("/", $url, 2);
-        $plugin = "App\Plugins\Native\\".$splitted[0]."\handler";
+        $plugin = strtolower($plugin);
+        $pluginExists = PluginsList::where("pluginRoute", $plugin)->where("pluginInstalled", "1")->count();
+        if($pluginExists <= 0)
+        {
+            return view("errors.notFound");
+        }
+
+        $pluginArray = PluginsList::where("pluginRoute", $plugin)->where("pluginInstalled", "1")->first();
+
+        $plugin = $pluginArray["pluginNamespace"] . "\handler";
         $result = new $plugin();
-        if(isset($splitted[1])) {$route = $splitted[1]; } else {$route = "/"; }
+        $route = $url;
         $result = $result->route($route, $request);
 
-        return response($result);
+        return response($result); //returns the result of the Plugin
     }
 
-    public function testing()
+    public function testing() // [only for testing]
     {
         $helper = new helper();
         $queryObjectWithAllData = array(

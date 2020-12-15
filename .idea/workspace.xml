@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="Documentation edit">
+    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="Helper edited">
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/controllers/sampleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/LangFiles/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/LangFiles/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/form.view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/hello.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/index.view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/internal/render.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/internal/router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/routing/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/errors/notFound.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentAPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentAPIController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +164,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Plugins" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
@@ -157,11 +172,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\z\newXampp\htdocs\whm\remake\app\Plugins" />
+      <recent name="D:\z\newXampp\htdocs\whm\remake\resources\views\errors" />
       <recent name="D:\z\newXampp\htdocs\whm\remake\app\Plugins\Native\PermissionsPlugin" />
       <recent name="D:\z\newXampp\htdocs\whm\remake\app\Plugins\payment" />
       <recent name="D:\z\newXampp\htdocs\whm\remake\app\Plugins\Native\SetupPlugin\main\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\z\newXampp\htdocs\whm\remake\app\Http\Controllers\frontend" />
       <recent name="D:\z\newXampp\htdocs\whm\remake\app\Models" />
     </key>
   </component>
@@ -186,7 +204,7 @@
       <workItem from="1607866083918" duration="2647000" />
       <workItem from="1607872287990" duration="746000" />
       <workItem from="1607951508285" duration="13659000" />
-      <workItem from="1608018836212" duration="7810000" />
+      <workItem from="1608018836212" duration="18737000" />
     </task>
     <task id="LOCAL-00001" summary="Changed something">
       <created>1608019879876</created>
@@ -209,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608023807992</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Helper edited">
+      <created>1608026744116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608026744116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +266,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed something" />
     <MESSAGE value="Documentation edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentation edit" />
+    <MESSAGE value="Helper edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Helper edited" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

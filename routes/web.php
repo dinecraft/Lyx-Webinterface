@@ -24,17 +24,15 @@ Route::get("/install/setup/4", "SetupInstallation\SetupController@InstallStepFou
 Route::post("/install/setup/4/post", "SetupInstallation\SetupController@InstallPostFour");
 
 //payment
-Route::get("/payment/make/{method}/id/{id}/price/{price}", "PaymentControllers\paymentController@paymentMake"); //run payment
-Route::get("/payment/done/{payID}/{id}", "PaymentControllers\paymentController@paymentDone"); //if payment done, redirect here
-//Route::get("/payment/status/{id}", "PaymentControllers\paymentController@paymentStatus"); //get payment status
-
-Route::post("/payment/api/status/{method}/post", "PaymentControllers\paymentAPIController@sendStatus"); //api handshake post with mollie/paypal
+Route::get("/payment/make/{method}/id/{id}/price/{price}", "PaymentControllers\paymentController@paymentMake")->name("payment.make"); //run payment
+Route::get("/payment/done/{payID}/{id}", "PaymentControllers\paymentController@paymentDone")->name("payment.result"); //if payment done, redirect here
+Route::post("/payment/api/status/{method}/post", "PaymentControllers\paymentAPIController@sendStatus")->name("payment.api.handshake"); //api handshake post with mollie/paypal
 
 //testing
-Route::get("/testing", "BackendController@testing");
+Route::get("/testing", "BackendController@testing")->name("testing");
 
-Route::get("/user/flow/{url}", "BackendController@pluginRouting")->where('url', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)');
-Route::post("/user/send/{url}", "BackendController@pluginRouting")->where('url', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)');
+Route::get("/rp/{plugin}/{url}", "BackendController@pluginRouting")->where('url', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)')->name("plugin.get");
+Route::post("/rs/{plugin}/{url}", "BackendController@pluginRouting")->where('url', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)')->name("plugin.post");
 
 //sprachrythmus
 Route::get("/backend/language/{lang}", "BackendController@language");
@@ -44,5 +42,8 @@ Route::get('/', function () {
 });
 
 Auth::routes();
+
+//dynamic frontend routing
+Route::get("/{frontRoute}", function($frontRoute) {return response("/".$frontRoute);})->where('frontRoute', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)')->name("frontend.route");
 
 

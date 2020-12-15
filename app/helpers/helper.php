@@ -2,8 +2,17 @@
 
 namespace App\helpers;
 
+// [use]
+use App\Models\PluginsList;
+
 class helper
 {
+    public static function pluginNamespace($pluginName)
+    {
+        $result = PluginsList::where("pluginName", $pluginName)->first();
+        return $result["pluginNamespace"];
+    }
+
     public function ContactPlugin($pluginNamespace, $pluginFunction, $arguments)  // [Function]  Call Dynamic with dynmaic Class with function number of arguments.
     {
         if($pluginNamespace[0] == "*")

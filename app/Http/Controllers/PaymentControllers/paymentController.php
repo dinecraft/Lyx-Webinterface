@@ -90,13 +90,13 @@ class paymentController extends Controller
         $array = [
             "currency" => "EUR",
             "price" => $price,
-            "description" => "Bezahlung: #".$payID, //edit
+            "description" => "Payment: #".$payID, //edit
             "payID" => $payID,
             "resultUrl" => "http://84.179.115.208/whm/remake/public/payment/done/".$payID."/".$id
         ]; // represents the required data for the payment plugin / provider
 
-         $result = $payment->callDirect('*MollieController@makePayment', $array); //call the makePayment function in payment plugin
-       // $dat = array("*MollieController@makePayment", $array);
+         $result = $payment->callDirect('*sampleController@makePayment', $array); //call the makePayment function in payment plugin
+       // $dat = array("*sampleController@makePayment", $array);
         //$result = call_user_func_array(array($payment, "callDirect"), $dat);
         if(explode("||",$result)[0] == "err")
         {
