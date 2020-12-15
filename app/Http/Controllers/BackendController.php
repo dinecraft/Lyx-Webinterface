@@ -10,6 +10,8 @@ use Config;
 use Artisan;
 use File;
 
+use App\helpers\helper;
+
 class BackendController extends Controller
 {
     //function zum langugeTest
@@ -19,7 +21,7 @@ class BackendController extends Controller
         //return view("setup.step1");
     //}
 
-    //plugin routing 
+    //plugin routing
     public function pluginRouting(Request $request, $url)
     {
         $splitted = explode("/", $url, 2);
@@ -29,5 +31,16 @@ class BackendController extends Controller
         $result = $result->route($route, $request);
 
         return response($result);
+    }
+
+    public function testing()
+    {
+        $helper = new helper();
+        $queryObjectWithAllData = array(
+            ["func" => "testing", "class" => "App\Plugins\Native\PermissonsPlugin\handler"],
+            ["func" => "testing", "class" => "App\Plugins\Native\PermissonsPlugin\handler"],
+            ["func" => "testing", "class" => "App\Plugins\Native\PermissonsPlugin\handler"],
+        );
+        return response($helper->contactPluginEW("App\Plugins\Native\PermissonsPlugin\handler@testing", array("")));
     }
 }

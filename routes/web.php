@@ -31,6 +31,8 @@ Route::get("/payment/done/{payID}/{id}", "PaymentControllers\paymentController@p
 Route::post("/payment/api/status/{method}/post", "PaymentControllers\paymentAPIController@sendStatus"); //api handshake post with mollie/paypal
 
 //testing
+Route::get("/testing", "BackendController@testing");
+
 Route::get("/user/flow/{url}", "BackendController@pluginRouting")->where('url', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)');
 Route::post("/user/send/{url}", "BackendController@pluginRouting")->where('url', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)');
 

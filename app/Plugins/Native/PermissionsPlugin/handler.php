@@ -43,4 +43,9 @@ class handler
         $caller = new $class();
         return $caller->$function($data);
     }
+
+    public function testing()
+    {
+        return "ja";
+    }
 }
