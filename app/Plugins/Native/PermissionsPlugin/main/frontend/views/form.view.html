@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>@(title);</title>
+        @css["css.style"];
+    </head>
+    <body>
+        <h1>@[Welcome];</h1>
+        <form action="http://localhost/whm/remake/public/user/send/SetupPlugin/form/post" method="post">
+            <input name="ja" value="">
+            @csrf;
+            <button type="submit">Absenden ></button>
+        </form>
+    </body>
+</html>

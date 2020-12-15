@@ -1,0 +1,60 @@
+<?php
+namespace App\Plugins\Native\SetupPlugin;
+
+use DB;
+use Session;
+Use App;
+use Config;
+use Artisan;
+use File;
+
+class autoDestroy
+{
+    public function createConfig($host, $port, $db, $username, $password)
+    {
+        //mysql disconnecten (auch wenn es bis dato noch gar keine verbindung gibt)
+        DB::disconnect();
+        //cache clearen
+        Artisan::call('config:clear');
+
+        //GGF password parsen , also wenn mysql kein password schutz hat, einfach n leeren string übergeben
+        if($password) { config(["database.connections.mysql.password" => $password]);} else { config(["database.connections.mysql.password" => ""]); }
+
+        config(["database.connections.mysql.host" => $host]);
+        config(["database.connections.mysql.port" => $port]);
+        config(["database.connections.mysql.database" => $db]);
+        config(["database.connections.mysql.username" => $username]);
+
+        //vorhandene Config einlesen
+        $path = base_path()."/config/database.php";
+        $content = File::get($path);
+        //entsprechend replacen
+        $newcontent = str_replace("%%host%%", $host, $content);
+        $newcontent = str_replace("%%port%%", $port, $newcontent);
+        $newcontent = str_replace("%%db%%", $db, $newcontent);
+        $newcontent = str_replace("%%user%%", $username, $newcontent);
+        if($password) { $newcontent = str_replace("%%pw%%", $password, $newcontent); } else { $newcontent = str_replace("%%pw%%", '', $newcontent); }
+        //datei Löschen und neu erstellen
+        File::delete($path);
+        File::put($path, $newcontent);
+
+        //mysql neu connecten
+        DB::reconnect();
+
+        //tabellen migrieren
+        Artisan::call('migrate');
+
+        //selbst zerstören (diese Datei)
+        $selfile = base_path()."/app/Plugins/autoDestroy.php";
+        File::delete($selfile);
+
+        return "Done";
+    }
+}
+
+/**'host' => env('DB_HOST', '%%host%%'),
+    'port' => env('DB_PORT', '%%port%%'),
+    'database' => env('DB_DATABASE', '%%db%%'),
+    'username' => env('DB_USERNAME', '%%username%%'),
+    'password' => env('DB_PASSWORD', '%%password%%'),
+*/
