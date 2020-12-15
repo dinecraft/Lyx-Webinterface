@@ -9,20 +9,20 @@ use App\helpers\helper;
 
 class render
 {
-    public function __constructor()
-    {
-        //
-    }
+    public $pluginName = "samplePlugin";
 
+    public function pluginPath($extraPath)  // [Helper] Helper function for getting the raw path of project .
+    {
+        $res = base_path() . "\\" . helper::pluginNamespace($this->pluginName) . $extraPath;
+        return str_replace("App", "app", $res);
+    }
 
     //run the rendering process, call from here the renderer Method
     public function view($view, $data = [])
     {
-        $pluginName = "samplePlugin";
-        $pluginNamespace = helper::pluginNamespace($pluginName);
-        $pluginRaw  = base_path() . $pluginNamespace;
+        $ViewsPath  = $this->pluginPath("\\main\\frontend\\views\\");
         //get view and resolve the . to \ (for folder-structure)
-        $path = $pluginRaw . "\\main\\frontend\\views\\" . str_replace(".", "\\", $view); //all view located in "views" - subfolder-struct
+        $path = $ViewsPath . str_replace(".", "\\", $view); //all view located in "views" - subfolder-struct
         $path .= ".view.html";
         $html = File::get($path); //get html file
         $result = $this->renderer($html, $data); //call render method to render
@@ -69,7 +69,8 @@ class render
     //read file and return content
     public function getFile($type, $task)
     {
-        $filepath = __DIR__ . "\\" . str_replace(".", "\\", $task); //resolve path
+        $pluginPath  = $this->pluginPath("\\main\\frontend\\css\\");
+        $filepath = $pluginPath . str_replace(".", "\\", $task); //resolve path
         $filepath .= ".".$type; //add file ending
         if(! file_exists($filepath)) {return ""; }
         $result = File::get($filepath);
@@ -83,7 +84,8 @@ class render
     public function translator($task)
     {
         $lang = $this->Lang("GET"); //get current lang code (example: de, en, fr)
-        $filepath = __DIR__ . "\\LangFiles\\" . $lang . ".json"; //load trnalation file
+        $pluginPath  = $this->pluginPath("\\main\\frontend\\LangFiles\\");
+        $filepath = $pluginPath . $lang . ".json"; //load trnalation file
         $file = File::get($filepath); // ...
         $file_object = json_decode($file); //json decode it
 

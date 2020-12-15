@@ -10,6 +10,6 @@ class sampleController
     public function showTime()
     {
         $render = new render();
-        return $render->view("index");
+        return $render->view("index", ["title" => "hello"]);
     }
 }

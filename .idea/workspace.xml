@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="Helper edited">
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/controllers/sampleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/LangFiles/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/LangFiles/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/form.view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/hello.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/index.view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/internal/render.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/internal/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/routing/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/notFound.blade.php" afterDir="false" />
+    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="Something edited">
+      <change afterPath="$PROJECT_DIR$/app/Theming/themeHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentAPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentAPIController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/controllers/sampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/controllers/sampleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/LangFiles/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/LangFiles/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/index.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/index.view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/internal/render.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/internal/render.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +191,7 @@
       <workItem from="1607866083918" duration="2647000" />
       <workItem from="1607872287990" duration="746000" />
       <workItem from="1607951508285" duration="13659000" />
-      <workItem from="1608018836212" duration="18737000" />
+      <workItem from="1608018836212" duration="23962000" />
     </task>
     <task id="LOCAL-00001" summary="Changed something">
       <created>1608019879876</created>
@@ -234,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608026744116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Something edited">
+      <created>1608047115079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608047115079</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +261,8 @@
     <MESSAGE value="Changed something" />
     <MESSAGE value="Documentation edit" />
     <MESSAGE value="Helper edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Helper edited" />
+    <MESSAGE value="Something edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Something edited" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
