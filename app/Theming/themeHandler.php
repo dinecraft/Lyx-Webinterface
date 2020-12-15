@@ -7,6 +7,16 @@ use File;
 
 class themeHandler
 {
+    //testing
+    public function testRender()
+    {
+        $content = "@each(\$x as \$y): {{ \$y->lel }} @endeach;";
+        $dataArray = ["x" => array("lel" => "waaserflasche")];
+        $engine = new PineapplePen();
+        return $engine->MainThreadRenderer($content, $dataArray);
+    }
+
+
     public function showPageFromTemplate($pathToTemplate, $dataArray = [], $renderEngine = "pp")
     {
         $realPathToTemplate = $this->parseTemplatePath($pathToTemplate);

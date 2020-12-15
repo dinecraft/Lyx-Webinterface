@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="Something edited">
-      <change afterPath="$PROJECT_DIR$/app/Theming/themeHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="Updated a lot :)">
+      <change afterPath="$PROJECT_DIR$/app/Theming/Engine/PineapplePen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/controllers/sampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/controllers/sampleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/LangFiles/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/LangFiles/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/index.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/frontend/views/index.view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/internal/render.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/samplePlugin/main/internal/render.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Theming/themeHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Theming/themeHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +188,8 @@
       <workItem from="1607866083918" duration="2647000" />
       <workItem from="1607872287990" duration="746000" />
       <workItem from="1607951508285" duration="13659000" />
-      <workItem from="1608018836212" duration="23962000" />
+      <workItem from="1608018836212" duration="24069000" />
+      <workItem from="1608054323319" duration="9413000" />
     </task>
     <task id="LOCAL-00001" summary="Changed something">
       <created>1608019879876</created>
@@ -228,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608047115079</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated a lot :)">
+      <created>1608052372955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608052372955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,13 +261,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed something" />
     <MESSAGE value="Documentation edit" />
     <MESSAGE value="Helper edited" />
     <MESSAGE value="Something edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Something edited" />
+    <MESSAGE value="Updated a lot :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated a lot :)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -30,6 +30,7 @@ Route::post("/payment/api/status/{method}/post", "PaymentControllers\paymentAPIC
 
 //testing
 Route::get("/testing", "BackendController@testing")->name("testing");
+Route::get("/rendertest", "frontend\\frontendController@showRequestedSite");
 
 Route::get("/rp/{plugin}/{url}", "BackendController@pluginRouting")->where('url', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)')->name("plugin.get");
 Route::post("/rs/{plugin}/{url}", "BackendController@pluginRouting")->where('url', '([$:ÄäÖöÜüßA-Za-z0-9\-\/]+)')->name("plugin.post");
@@ -40,6 +41,7 @@ Route::get("/backend/language/{lang}", "BackendController@language");
 Route::get('/', function () {
     return response("welcome");
 });
+
 
 Auth::routes();
 
