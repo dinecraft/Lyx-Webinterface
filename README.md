@@ -1,25 +1,24 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+# OpenHCP - Open Hosting Control Platform
 
-## About Laravel
+OpenHCP is an open Source project which is Maintained by me. It's an open source alternative
+to Solutions like WHMCS or Tekbase. The System comes with a full featured Stack of Functions, 
+a multilevel Permission System, a Plugin System, a Ticketing System and a diverse Theming and 
+Designing System. This Project is not for somebody who needs a High secure never have problems -
+Panel, only for them who never pay for WHMCS or like open source Projects.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### **Problems: The Panel is not working yet. Its under developement, so never use it - when you're not a Dev :)**
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Features List:
+- Open Source, no "**Freemium**".
+- You can use it for Personal and Commercial use.
+- It's based on Laravel Framework (7). Which is easy extendable and good documented.
+- Easy to Setup (need only Webserver and MySQl Database).
+- Plugin/Module System - you can write your own Plugins and integrate it easy into Panel.
+- Well documented Developer and User Documentation (//TODO).
+- Permissions System with Roles + Single extra Set-able Permissions per User/group.
+- Backend System for the Controlpanel.
+- -
 
 ## Learning Laravel
 

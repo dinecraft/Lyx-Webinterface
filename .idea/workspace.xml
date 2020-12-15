@@ -1,373 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.autogit/autogit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.autogit/logs/log-19-10-2020-14-24-51.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.autogit/logs/log-19-10-2020-14-25-56.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.autogit/logs/log-19-10-2020-14-27-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.autogit/logs/log-19-10-2020-14-28-6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.autogit/logs/log-19-10-2020-14-29-12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.autogit/logs/log-19-10-2020-16-43-43.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/blade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/remake.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentAPIController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SetupInstallation/SetupController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/main/LanguageMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/setup/isInstalled.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/PaymentPlugins.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/hosters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/paymentslists.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/permissionUsers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/permissions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/produktes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Backups/nullx.php.backup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/controllers/PermissionsMiddlewareController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/frontend/LangFiles/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/frontend/LangFiles/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/frontend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/frontend/views/form.view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/frontend/views/hello.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/frontend/views/index.view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/internal/render.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/internal/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/PermissionsPlugin/main/routing/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/controllers/autoDestroyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/controllers/myTestController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/frontend/LangFiles/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/frontend/LangFiles/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/frontend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/frontend/views/form.view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/frontend/views/hello.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/frontend/views/index.view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/internal/render.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/internal/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/Native/SetupPlugin/main/routing/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/controllers/MollieController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/LangFiles/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/LangFiles/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/views/form.view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/views/hello.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/views/index.view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/internal/render.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/internal/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/routing/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/molliePluginOld/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Plugins/payment/paypalPlugin/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_28_113658_lite_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_03_133053_create_payments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_04_143652_create_payments_lists_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_14_144956_create_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_14_145014_create_permission_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cpu_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/selectize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hdd_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/selectize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/old_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ram_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/.versions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/accordion.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/accordion.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/ad.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/ad.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/api.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/breadcrumb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/breadcrumb.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/button.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/card.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/checkbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/checkbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/checkbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/colorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/colorize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/comment.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/container.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dimmer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dimmer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dimmer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dimmer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/divider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/divider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dropdown.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/dropdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/embed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/embed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/embed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/embed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/feed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/feed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/flag.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/flag.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/form.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/form.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/header.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/icon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/image.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/input.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/item.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/label.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/label.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/list.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/loader.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/message.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/message.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/modal.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/modal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/nag.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/nag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/nag.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/nag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/placeholder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/placeholder.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/popup.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/progress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/progress.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/progress.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rail.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/rating.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/reset.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/reveal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/reveal.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/search.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/search.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/segment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/segment.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/shape.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/shape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/shape.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/shape.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sidebar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sidebar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sidebar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/site.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/site.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/state.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/statistic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/statistic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/step.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/step.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sticky.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sticky.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/sticky.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/tab.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/tab.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/tab.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/transition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/transition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/transition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/video.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/video.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/visibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/visibility.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/visit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/components/visit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/semantic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/semantic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/semantic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/semantic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/brand-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/fonts/outline-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/semantic/themes/default/assets/images/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/typ_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/old.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/customError.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/paymentMethodNotFound.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/minimal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/setup/step1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/setup/step2.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/setup/step3.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/setup/step4.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="Changed something">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -544,8 +183,16 @@
       <workItem from="1607866083918" duration="2647000" />
       <workItem from="1607872287990" duration="746000" />
       <workItem from="1607951508285" duration="13659000" />
-      <workItem from="1608018836212" duration="801000" />
+      <workItem from="1608018836212" duration="3128000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed something">
+      <created>1608019879876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608019879876</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +209,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -573,6 +220,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed something" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed something" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
