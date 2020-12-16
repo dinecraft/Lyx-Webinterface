@@ -23,10 +23,10 @@ Route::post("/install/setup/3/post", "SetupInstallation\SetupController@InstallP
 Route::get("/install/setup/4", "SetupInstallation\SetupController@InstallStepFour");
 Route::post("/install/setup/4/post", "SetupInstallation\SetupController@InstallPostFour");
 
-//payment
-Route::get("/payment/make/{method}/id/{id}/price/{price}", "PaymentControllers\paymentController@paymentMake")->name("payment.make"); //run payment
-Route::get("/payment/done/{payID}/{id}", "PaymentControllers\paymentController@paymentDone")->name("payment.result"); //if payment done, redirect here
-Route::post("/payment/api/status/{method}/post", "PaymentControllers\paymentAPIController@sendStatus")->name("payment.api.handshake"); //api handshake post with mollie/paypal
+//Payment
+Route::get("/Payment/make/{method}/id/{id}/price/{price}", "PaymentControllers\paymentController@paymentMake")->name("Payment.make"); //run Payment
+Route::get("/Payment/done/{payID}/{id}", "PaymentControllers\paymentController@paymentDone")->name("Payment.result"); //if Payment done, redirect here
+Route::post("/Payment/api/status/{method}/post", "PaymentControllers\paymentAPIController@sendStatus")->name("Payment.api.handshake"); //api handshake post with mollie/paypal
 
 //testing
 Route::get("/testing", "BackendController@testing")->name("testing");

@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="Updated a lot :)">
-      <change afterPath="$PROJECT_DIR$/app/Theming/Engine/PineapplePen.php" afterDir="false" />
+    <list default="true" id="c1b5018f-d207-47e9-925e-9e66d7881d01" name="Default Changelist" comment="komische rendering engine bugs">
+      <change afterPath="$PROJECT_DIR$/app/Theming/default/index.tem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentAPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentAPIController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentControllers/paymentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/controllers/MollieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/controllers/MollieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/LangFiles/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/frontend/LangFiles/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/LangFiles/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/frontend/LangFiles/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/frontend/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/views/form.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/frontend/views/form.view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/views/hello.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/frontend/views/hello.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/frontend/views/index.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/frontend/views/index.view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/internal/render.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/internal/render.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/internal/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/internal/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/MolliePlugin/main/routing/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/MolliePlugin/main/routing/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/molliePluginOld/handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/molliePluginOld/handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plugins/payment/paypalPlugin/handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plugins/Payment/paypalPlugin/handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Theming/Engine/PineapplePen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Theming/Engine/PineapplePen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Theming/themeHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Theming/themeHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -189,7 +206,9 @@
       <workItem from="1607872287990" duration="746000" />
       <workItem from="1607951508285" duration="13659000" />
       <workItem from="1608018836212" duration="24069000" />
-      <workItem from="1608054323319" duration="9413000" />
+      <workItem from="1608054323319" duration="9441000" />
+      <workItem from="1608107463079" duration="14154000" />
+      <workItem from="1608125737481" duration="4484000" />
     </task>
     <task id="LOCAL-00001" summary="Changed something">
       <created>1608019879876</created>
@@ -233,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608052372955</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="komische rendering engine bugs">
+      <created>1608063759375</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608063759375</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +295,8 @@
     <MESSAGE value="Helper edited" />
     <MESSAGE value="Something edited" />
     <MESSAGE value="Updated a lot :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated a lot :)" />
+    <MESSAGE value="komische rendering engine bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="komische rendering engine bugs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

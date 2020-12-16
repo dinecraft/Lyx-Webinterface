@@ -10,7 +10,8 @@ class themeHandler
     //testing
     public function testRender()
     {
-        $content = "@each(\$x as \$y): {{ \$y->lel }} @endeach;";
+        $realPath = $this->parseTemplatePath("default.index");
+        $content = $this->readTemplateFileByPath($realPath);
         $dataArray = ["x" => array("lel" => "waaserflasche")];
         $engine = new PineapplePen();
         return $engine->MainThreadRenderer($content, $dataArray);
@@ -44,12 +45,12 @@ class themeHandler
     public function parseTemplatePath($pathToTemplate)  // [Helper Function]  Parse the Template.folder.filename to \templat\folder\filename for exmple.
     {
         $realPathToTemplate = str_replace(".", "\\", $pathToTemplate);
-        return __DIR__ . "\\". $realPathToTemplate . ".tem"; // [return] retruns the parsed Path off requested Template file.
+        return __DIR__ . "\\". $realPathToTemplate . ".tem.html"; // [return] retruns the parsed Path off requested Template file.
     }
 
     public function readTemplateFileByPath($realPathToTemplate)  // [Helper Function]  Parse the Template.folder.filename to \templat\folder\filename for exmple.
     {
         $fileAsString = File::get($realPathToTemplate); // [read] file;
-        return str_replace("<"."?"."php", "", $fileAsString);  // [Return]  the file as string.
+        return $fileAsString;  // [Return]  the file as string.
     }
 }

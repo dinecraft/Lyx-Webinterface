@@ -23,7 +23,7 @@ class handler
             ],
             "description" => $description,
             "redirectUrl" => $result,
-            "webhookUrl" => "https://84.179.115.208/whm/remake/public/payment/api/status/post",
+            "webhookUrl" => "https://84.179.115.208/whm/remake/public/Payment/api/status/post",
             "metadata" => [
                 "payID" => $payID
             ],
@@ -35,7 +35,7 @@ class handler
 
     /**
      * After the customer has completed the transaction,
-     * you can fetch, check and process the payment.
+     * you can fetch, check and process the Payment.
      * This logic typically goes into the controller handling the inbound webhook request.
      * See the webhook docs in /docs and on mollie.com for more information.
      */

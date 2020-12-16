@@ -28,10 +28,10 @@ class PaymentAPIController extends Controller
         //
     }
 
-    //get status handshake from payment provider (optionally) [api]
+    //get status handshake from Payment provider (optionally) [api]
     public function sendStatus($method, Request $request)
     {
-        $payMethod = PaymentPlugins::where("methodName", strtolower($method))->first(); //get payment method plugin classname
+        $payMethod = PaymentPlugins::where("methodName", strtolower($method))->first(); //get Payment method plugin classname
         $pluginame = $payMethod["methodUrl"]; //represwentiert den klassennamen / pluginnamen
         $plugin = "App\Plugins\payment\\".$pluginame."\handler"; //dynamicly call
         $payment = new $plugin(); //create class instace

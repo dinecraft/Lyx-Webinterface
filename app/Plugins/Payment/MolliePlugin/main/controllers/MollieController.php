@@ -22,7 +22,7 @@ class MollieController
             ],
             "description" => $description,
             "redirectUrl" => $result,
-            "webhookUrl" => "https://84.179.115.208/whm/remake/public/payment/api/status/mollie/post",
+            "webhookUrl" => "https://84.179.115.208/whm/remake/public/Payment/api/status/mollie/post",
             "metadata" => [
                 "payID" => $payID
             ],

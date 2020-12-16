@@ -38,7 +38,7 @@ class paymentController extends Controller
             $id = Auth()->user()->id; //get user id
         }
 
-        $check_zahlung = Paymentslists::where("payID", $payID)->where("user", $id)->count(); //check if payment exists
+        $check_zahlung = Paymentslists::where("payID", $payID)->where("user", $id)->count(); //check if Payment exists
         if($check_zahlung <= 0)
         {
             $customError = "Error: Invalid Payment";
@@ -46,7 +46,7 @@ class paymentController extends Controller
         }
         else
         {
-            $zahlung = Paymentslists::where("payID", $payID)->where("user", $id)->first(); //get payment
+            $zahlung = Paymentslists::where("payID", $payID)->where("user", $id)->first(); //get Payment
             if($zahlung["status"] == 3) //zahlung erfolgreich
             {
                 return response("Es wurden ".$zahlung["price"]." EUR auf ihr Konto eingezahlt.");
@@ -65,7 +65,7 @@ class paymentController extends Controller
             $id = Auth()->user()->id; //get user id
         }
 
-        if(PaymentPlugins::where("MethodName", strtolower($method))->count() <= 0) //check if payment-method exists in table;
+        if(PaymentPlugins::where("MethodName", strtolower($method))->count() <= 0) //check if Payment-method exists in table;
         {
             return view("errors.paymentMethodNotFound"); //error return;
         }
@@ -78,26 +78,26 @@ class paymentController extends Controller
             return view("errors.customError", ["err" => $customError]); //return error
         }
 
-        $payMethod = PaymentPlugins::where("methodName", strtolower($method))->first(); //get payment method plugin classname
+        $payMethod = PaymentPlugins::where("methodName", strtolower($method))->first(); //get Payment method plugin classname
         $pluginame = $payMethod["methodUrl"]; //represwentiert den klassennamen / pluginnamen
         $plugin = "App\Plugins\payment\\".$pluginame."\handler"; //dynamicly call
         $payment = new $plugin(); //create class instace
 
-        $payID = Paymentslists::where("payID", "STORAGE_NUMBER")->first(); //generate payment ID
+        $payID = Paymentslists::where("payID", "STORAGE_NUMBER")->first(); //generate Payment ID
         $payID = $payID["status"] + 1; // [see last line]
         Paymentslists::where("payID", "STORAGE_NUMBER")->update(["status" => $payID]); //update
-        Paymentslists::insert(["price" => round($price, 2), "user" => $id, "payID" => $payID, "status" => "1", "extra" => $method]); //create the payment in Database
+        Paymentslists::insert(["price" => round($price, 2), "user" => $id, "payID" => $payID, "status" => "1", "extra" => $method]); //create the Payment in Database
         $array = [
             "currency" => "EUR",
             "price" => $price,
             "description" => "Payment: #".$payID, //edit
             "payID" => $payID,
-            "resultUrl" => "http://84.179.115.208/whm/remake/public/payment/done/".$payID."/".$id
-        ]; // represents the required data for the payment plugin / provider
+            "resultUrl" => "http://84.179.115.208/whm/remake/public/Payment/done/".$payID."/".$id
+        ]; // represents the required data for the Payment plugin / provider
 
-         $result = $payment->callDirect('*sampleController@makePayment', $array); //call the makePayment function in payment plugin
+         $result = $payment->callDirect('*sampleController@makePayment', $array); //call the makePayment function in Payment plugin
        // $dat = array("*sampleController@makePayment", $array);
-        //$result = call_user_func_array(array($payment, "callDirect"), $dat);
+        //$result = call_user_func_array(array($Payment, "callDirect"), $dat);
         if(explode("||",$result)[0] == "err")
         {
             $customError = "ERROR:" . explode("||",$result)[1];
