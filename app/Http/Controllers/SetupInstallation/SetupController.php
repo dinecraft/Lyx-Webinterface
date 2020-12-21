@@ -31,7 +31,11 @@ class SetupController extends Controller
     //function to show the Installation Site
     public function InstallStepOne()
     {
-         return view("setup.step1");
+        $start_exec_time = round(microtime(true) *1000);
+         $v = view("setup.step1");
+        $end_exec_time = round(microtime(true) *1000) - $start_exec_time;
+        //dd($end_exec_time);
+        return $v;
     }
 
     //function to post language select
