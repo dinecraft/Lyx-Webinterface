@@ -13,7 +13,12 @@
 - Custom routes (set default routes by Plugin - setup synonymous Routes.
 - Interact with the CSS Rules for styling Plugins
 - AJAX API Load dynamicly Contents
-- 
+- Install Plugins Dynamicly
+- Access Tickets
+- Access Other Plugin Functions from Plugin
+- Access Values from the Product page
+- Run a Plugin after buying Product
+- Login-By-Link
 
 
 
