@@ -1,4 +1,22 @@
 
+# TODO  
+## Frontent Management
+- Designing Tool - Build custom site easy (own rendering Engine in work)
+- Payment System - Dynmicly add Payment Methods to the Payment Process
+- Different Payment-Types |Free, One-Time, Interval, Prepaid, Custom
+- Frontend-API Registering Frontend-Plugins
+- Roles system: Superadmin, Admin, Supporter, Reseller, User - and custom group Support
+- CMS System: manage Images dynmaicly
+- custom Language Packets
+## Dev APIs
+- Interact with everything over API (Rest API HTtp(s)) JSON
+- Custom routes (set default routes by Plugin - setup synonymous Routes.
+- Interact with the CSS Rules for styling Plugins
+- AJAX API Load dynamicly Contents
+- 
+
+
+
 # OpenHCP - Open Hosting Control Platform
 
 OpenHCP is an open Source project which is Maintained by me. It's an open source alternative
